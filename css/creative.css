@@ -119,12 +119,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: rgb(56, 68, 238);
+  color: #2a6cad;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: rgb(56, 68, 238) !important;
+  color: #2a6cad !important;
   background-color: transparent;
 }
 
@@ -172,7 +172,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: rgb(12, 156, 175);
+    color: #507092;
   }
 }
 
@@ -244,7 +244,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgb(56, 68, 238);
+  background: rgb(49, 51, 75, 0.8);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -322,9 +322,9 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: rgb(56, 68, 238) !important;
+  background-color: #212529 !important;
 }
 
-.btn-primary:active, .btn-primary:focus {
+/* .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgb(56, 68, 238, 0.5) !important;
-}
+} */
